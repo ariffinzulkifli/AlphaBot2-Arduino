@@ -35,7 +35,7 @@ void loop() {
         Serial.println("center");
         break;
       default:
-        Serial.println("unknow\n");
+        Serial.println("unknown");
     }
     while (value != 0xFF) {
       PCF8574Write(0x1F | PCF8574Read());
